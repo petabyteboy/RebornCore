@@ -32,8 +32,8 @@ license {
 }
 
 dependencies {
-	minecraft "com.mojang:minecraft:21w06a"
-	mappings "net.fabricmc:yarn:21w06a+build.8:v2"
+	minecraft "com.mojang:minecraft:21w07a"
+	mappings "net.fabricmc:yarn:21w07a+build.5:v2"
 	modImplementation "net.fabricmc:fabric-loader:0.11.1"
 
 	//Fabric api
@@ -109,7 +109,7 @@ curseforge {
 		id = "237903"
 		changelog = "A changelog can be found at https://github.com/TechReborn/RebornCore"
 		releaseType = ENV.RELEASE_CHANNEL ?: "release"
-		addGameVersion "21w06a"
+		addGameVersion "21w07a"
 		addGameVersion "Fabric"
 
 		mainArtifact(file("${project.buildDir}/libs/${archivesBaseName}-${version}.jar"))
